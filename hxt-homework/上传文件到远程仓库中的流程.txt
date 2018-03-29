@@ -1,0 +1,5 @@
+先用git clone 加远程地址下载下来，之后修改内容之后都必须用git add 上交到暂存区之后再用git commit -m ‘备注’上交到仓库中，之后让本地与远程进行关联用git remote add [随便取名字] [远程地址] 例如 git remote add hxtt git@github.com:huangxiaotao19951125/demo1.git 就完成了远程与本地的关联就可以是上传文件了, 用git push [之前取的名字]master 就完成了上传文件
+
+
+
+对于第一次创建远程仓库的则必须创建私钥和公钥,用 shh -keygen -t rsa -C '用户名' 
